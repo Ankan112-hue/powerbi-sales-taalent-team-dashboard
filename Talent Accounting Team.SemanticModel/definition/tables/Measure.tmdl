@@ -1,0 +1,129 @@
+table Measure
+	lineageTag: 39937017-28a9-485c-b63b-8a20964fbaae
+
+	measure Month-to-date-sales = CALCULATE(sum('Table 1 (Sheet1)'[Income £]),'Table 1 (Sheet1)'[Current_month_filter]="yes")
+		formatString: "£"#,0.00;-"£"#,0.00;"£"#,0.00
+		lineageTag: a8c8d9c6-58a4-4ead-99a8-cce62ae37f72
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	measure Quater-to-date-sales = CALCULATE(sum('Table 1 (Sheet1)'[Income £]),'Table 1 (Sheet1)'[Current_quater_filter]="yes")
+		formatString: "£"#,0.00;-"£"#,0.00;"£"#,0.00
+		lineageTag: 7b035042-f0a2-4447-83d9-3bfaeb8907b7
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	measure Year-to-date-sales = CALCULATE(sum('Table 1 (Sheet1)'[Income £]),'Table 1 (Sheet1)'[Current_yearfilter]="yes")
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: e4bee2f8-b77c-437f-9c1b-f6a3b21162a9
+
+	measure Year-to-date-cost = CALCULATE(SUM('Table 2 (IPA-09-0321)'[Cost £]),'Table 2 (IPA-09-0321)'[Current_yearfilter]="yes")
+		formatString: "£"#,0.00;-"£"#,0.00;"£"#,0.00
+		lineageTag: bfaac4a8-7b70-445d-aa9a-0315321a57db
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	measure Month-to-date-cost = CALCULATE(sum('Table 2 (IPA-09-0321)'[Cost £]),'Table 2 (IPA-09-0321)'[Current_month_filter]="yes")
+		formatString: "£"#,0.00;-"£"#,0.00;"£"#,0.00
+		lineageTag: cc60fe3d-1f1f-4e45-8c05-c25029fa89dc
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	measure Quater-to-date-cost = CALCULATE(sum('Table 2 (IPA-09-0321)'[Cost £]),'Table 2 (IPA-09-0321)'[Current_quater_filter]="yes")
+		formatString: "£"#,0.00;-"£"#,0.00;"£"#,0.00
+		lineageTag: f54e3c10-eb26-45bf-821c-8afe79e1e6fa
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	measure Week-to-date-cost = CALCULATE(sum('Table 2 (IPA-09-0321)'[Cost £]),'Table 2 (IPA-09-0321)'[Current_week_filter]="yes")
+		formatString: "£"#,0.00;-"£"#,0.00;"£"#,0.00
+		lineageTag: 6e3602ce-d7e9-4975-95a2-d6e044eb3bca
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	measure prev_monnth_sale = ```
+			
+					CALCULATE(
+						SUM('Table 1 (Sheet1)'[Income £]),
+			            ALLSELECTED('calendar'),'calendar'[rank]=MAX('calendar'[rank])-1
+			            
+					
+			
+			)
+			```
+		lineageTag: 594fe548-c6ec-4a8e-9356-fb76216d38a8
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "MonthOverMonth"
+				}
+
+		changedProperty = FormatString
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Monnth-on-Month_saleschange_percentage = if([prev_monnth_sale]=BLANK(),BLANK(),CALCULATE((SUM('Table 1 (Sheet1)'[Income £])-[prev_monnth_sale])/[prev_monnth_sale]))
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 37f7c150-59f6-4857-a96b-ef00a6e77316
+
+	measure prev_monnth_cost = ```
+			
+					CALCULATE(
+						SUM('Table 2 (IPA-09-0321)'[Cost £]),
+			            ALLSELECTED('calendar'),'calendar'[rank]=MAX('calendar'[rank])-1
+			            
+					
+			
+			)
+			```
+		lineageTag: f6dc0dc8-114f-49e0-aaae-0135be754a62
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Monnth-on-Month_cost_change_percentage = if([prev_monnth_cost]=BLANK(),BLANK(),CALCULATE((SUM('Table 2 (IPA-09-0321)'[Cost £])-[prev_monnth_cost])/[prev_monnth_cost]))
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: ac09c6f4-16c3-46f6-8b81-9e101e877e18
+
+	measure Amazon_disributior_sale_cur_mon_QA = CALCULATE(SUM('Table 1 (Sheet1)'[Income £]),'Table 1 (Sheet1)'[month]=3,'Table 1 (Sheet1)'[year]=2025,'Table 1 (Sheet1)'[Distributor]="Amazon Media Eu S.À R.L.")
+		formatString: "£"#,0.00;-"£"#,0.00;"£"#,0.00
+		lineageTag: 64e9dc0c-08ae-4810-9915-176ff3a19e12
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	measure DTO/EST_media_sale_cur_mon_QA = CALCULATE(SUM('Table 1 (Sheet1)'[Income £]),'Table 1 (Sheet1)'[month]=3,'Table 1 (Sheet1)'[year]=2025,'Table 1 (Sheet1)'[Media]="DTO/EST")
+		formatString: "£"#,0.00;-"£"#,0.00;"£"#,0.00
+		lineageTag: 8d07a994-a7f9-4c8c-85f5-9fe84c7106d3
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	measure samsung_broadcaster_sale_cur_mon_QA = CALCULATE(SUM('Table 1 (Sheet1)'[Income £]),'Table 1 (Sheet1)'[month]=3,'Table 1 (Sheet1)'[year]=2025,'Table 1 (Sheet1)'[Broadcaster]="Samsung Electronics (UK) Limited")
+		formatString: "£"#,0.00;-"£"#,0.00;"£"#,0.00
+		lineageTag: a141ad40-2d8f-49d6-8965-3b588d1ca6ed
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	measure Telivison_broadcaster_sale_cur_mon_QA = CALCULATE(SUM('Table 1 (Sheet1)'[Income £]),'Table 1 (Sheet1)'[month]=3,'Table 1 (Sheet1)'[year]=2025,'Table 1 (Sheet1)'[Sales Group]="Television")
+		formatString: "£"#,0.00;-"£"#,0.00;"£"#,0.00
+		lineageTag: 7ed2d337-cd41-4232-a9a7-82f2becff5b7
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	measure current_month = CALCULATE(max('Table 1 (Sheet1)'[Sales Period]),all())
+		formatString: yyyy-mm
+		lineageTag: 4587d611-d308-4f3e-aa41-4181cdd5f6f4
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	partition Measure = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Measure = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Measure", type text}}),
+				    #"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"Measure"})
+				in
+				    #"Removed Columns"
+
+	annotation PBI_ResultType = Table
+

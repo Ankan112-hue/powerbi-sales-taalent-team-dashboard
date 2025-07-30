@@ -1,0 +1,37 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-GB
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["Table 1 (Sheet1)","Table 2 (IPA-09-0321)","Measure","Table 2 (Sheet2)","Table 3 (Sheet3)"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.145.1457.0 (25.07)+6e87ffa743c5aa106a85a0b5e383d76d522045ba
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table DateTableTemplate_697021e4-85ae-4e77-95f4-4ed6cf98d0cd
+ref table 'Table 1 (Sheet1)'
+ref table LocalDateTable_ecf98fd8-1edd-47a0-9dd7-e904728b8961
+ref table LocalDateTable_08dc0011-c393-44db-9a46-50805c520b2d
+ref table LocalDateTable_eae3859f-cf38-4c80-9a12-1d9109b4255f
+ref table LocalDateTable_c5f04b0e-8e1c-40bf-b4d3-c5706be467a6
+ref table 'Table 2 (IPA-09-0321)'
+ref table LocalDateTable_d81bfb93-e2a6-4457-bd74-09de46945a73
+ref table Measure
+ref table calendar
+ref table LocalDateTable_9cc63a4e-7517-439c-b5fe-cb9ec718297c
+ref table 'Table 2 (Sheet2)'
+ref table LocalDateTable_848170e7-8bc7-4815-9479-c89fd3f83612
+ref table LocalDateTable_d077f5aa-c15d-4b3d-9a43-73dcf9aaf3cc
+ref table 'Table 3 (Sheet3)'
+ref table LocalDateTable_d3111745-e642-482a-b32b-a65b35cebd7b
+ref table LocalDateTable_d98a0432-f265-4cfe-82f5-bf78d835517c
+ref table LocalDateTable_f9a50421-0017-44ee-a5ff-e0ddeb912ae6
+
+ref cultureInfo en-US
+

@@ -1,0 +1,70 @@
+relationship 8563a8b4-5a88-45a8-9c84-0ad8deb49324
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Table 1 (Sheet1)'.'License Start'
+	toColumn: LocalDateTable_ecf98fd8-1edd-47a0-9dd7-e904728b8961.Date
+
+relationship 322e72b5-b265-4b4b-a840-4ba8d7819d9c
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Table 1 (Sheet1)'.'License End'
+	toColumn: LocalDateTable_08dc0011-c393-44db-9a46-50805c520b2d.Date
+
+relationship 7190d39a-b3da-4982-a5a7-2e45743884b7
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Table 1 (Sheet1)'.'Statement Period'
+	toColumn: LocalDateTable_eae3859f-cf38-4c80-9a12-1d9109b4255f.Date
+
+relationship 5962acd7-15a6-4ded-ab6e-a8f9bc5e596b
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Table 1 (Sheet1)'.'Sales Period'
+	toColumn: LocalDateTable_c5f04b0e-8e1c-40bf-b4d3-c5706be467a6.Date
+
+relationship 92c67fc0-3957-498c-8a6a-3c835099b678
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Table 2 (IPA-09-0321)'.Period
+	toColumn: LocalDateTable_d81bfb93-e2a6-4457-bd74-09de46945a73.Date
+
+relationship 3d22f4db-cb71-4b8e-a9a3-7cb286c018ac
+	joinOnDateBehavior: datePartOnly
+	fromColumn: calendar.Period
+	toColumn: LocalDateTable_9cc63a4e-7517-439c-b5fe-cb9ec718297c.Date
+
+relationship 54f36b7a-4833-0c0b-4fb6-6faceed3e567
+	crossFilteringBehavior: bothDirections
+	fromColumn: 'Table 1 (Sheet1)'.'sales periodkey'
+	toColumn: calendar.'Period key'
+
+relationship 586fd58f-eed3-ebe4-1718-3a2c04d8e4fc
+	crossFilteringBehavior: bothDirections
+	fromColumn: 'Table 2 (IPA-09-0321)'.cost_datekey
+	toColumn: calendar.'Period key'
+
+relationship 68ef9ccb-d36f-4169-a809-61fc16ca20a7
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Table 2 (Sheet2)'.'Statement Period'
+	toColumn: LocalDateTable_848170e7-8bc7-4815-9479-c89fd3f83612.Date
+
+relationship 77e23e22-2694-4b7d-b359-31e213ef0855
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Table 2 (Sheet2)'.'Sales Period'
+	toColumn: LocalDateTable_d077f5aa-c15d-4b3d-9a43-73dcf9aaf3cc.Date
+
+relationship 9f9b1ace-4fef-4cd6-b13c-813853a9eef0
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Table 3 (Sheet3)'.'Sales Period'
+	toColumn: LocalDateTable_d3111745-e642-482a-b32b-a65b35cebd7b.Date
+
+relationship 29f1aff5-9bb2-4bfe-b70f-765d7001e8b0
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Table 3 (Sheet3)'.'Statement Period'
+	toColumn: LocalDateTable_d98a0432-f265-4cfe-82f5-bf78d835517c.Date
+
+relationship 8608760e-6699-62ee-5402-694e576886ea
+	crossFilteringBehavior: bothDirections
+	fromColumn: 'Table 3 (Sheet3)'.'sales periodkey'
+	toColumn: calendar.'Period key'
+
+relationship db94bf87-d79d-4920-9520-098bbf7087c0
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Table 2 (IPA-09-0321)'.'cost period'
+	toColumn: LocalDateTable_f9a50421-0017-44ee-a5ff-e0ddeb912ae6.Date
+

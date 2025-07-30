@@ -1,0 +1,100 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 8.8780613020749861
+          },
+          "nodeIndex": "Table 1 (Sheet1)",
+          "nodeLineageTag": "9533c18f-4c5b-4f62-b0f8-40cdf4f63016",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 679.60991351179985,
+            "y": 0
+          },
+          "nodeIndex": "Table 2 (IPA-09-0321)",
+          "nodeLineageTag": "db70fe86-6627-4b12-b79d-eea53ee9919b",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1379.2693821051876,
+            "y": 414.51554582720837
+          },
+          "nodeIndex": "Measure",
+          "nodeLineageTag": "39937017-28a9-485c-b63b-8a20964fbaae",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 349.58748500122613,
+            "y": 8.6322869955156989
+          },
+          "nodeIndex": "calendar",
+          "nodeLineageTag": "16eca5da-b405-425d-a1f1-a3dde72ae75e",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 966.40360797146491,
+            "y": 45.843049327354265
+          },
+          "nodeIndex": "Table 2 (Sheet2)",
+          "nodeLineageTag": "00380447-fa87-43a6-9925-8e5df2b3c912",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 410.79266768951618,
+            "y": 327.40442205030388
+          },
+          "nodeIndex": "Table 3 (Sheet3)",
+          "nodeLineageTag": "2ab7c969-7c31-41c8-b952-bb0fc27d87c7",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 78.846042641809149,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

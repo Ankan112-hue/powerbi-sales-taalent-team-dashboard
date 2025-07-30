@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Talent Accounting Team"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "7f0eaada-c86a-4f4f-a355-6386dfe9cfa0"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/2.1.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY24SU10",
+      "reportVersionAtImport": "5.65",
+      "type": "SharedResources"
+    }
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "CY24SU10",
+          "path": "BaseThemes/CY24SU10.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "222-2223361_britbox-announces-8134506550285951.png",
+          "path": "222-2223361_britbox-announces-8134506550285951.png",
+          "type": "Image"
+        },
+        {
+          "name": "865190-accounting-department-o5593947252369186.jpg",
+          "path": "865190-accounting-department-o5593947252369186.jpg",
+          "type": "Image"
+        },
+        {
+          "name": "image_(4)3957135284846556.png",
+          "path": "image_(4)3957135284846556.png",
+          "type": "Image"
+        },
+        {
+          "name": "image_(5)11264148705739074.png",
+          "path": "image_(5)11264148705739074.png",
+          "type": "Image"
+        },
+        {
+          "name": "image_(6)8084146249904159.png",
+          "path": "image_(6)8084146249904159.png",
+          "type": "Image"
+        },
+        {
+          "name": "icons8-close-3247772286082022286.png",
+          "path": "icons8-close-3247772286082022286.png",
+          "type": "Image"
+        },
+        {
+          "name": "icons8-click-506876979725671865.png",
+          "path": "icons8-click-506876979725671865.png",
+          "type": "Image"
+        },
+        {
+          "name": "icons8-click-50_(1)043627046019350635.png",
+          "path": "icons8-click-50_(1)043627046019350635.png",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "filterPaneHiddenInEditMode": true,
+    "useDefaultAggregateDisplayName": true
+  }
+}

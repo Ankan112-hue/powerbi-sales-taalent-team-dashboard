@@ -1,0 +1,329 @@
+table 'Table 1 (Sheet1)'
+	lineageTag: 9533c18f-4c5b-4f62-b0f8-40cdf4f63016
+
+	column 'Period Type'
+		dataType: string
+		lineageTag: 9f850acd-62d9-49a0-94be-5490e58dba87
+		summarizeBy: none
+		sourceColumn: Period Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Product Id'
+		dataType: string
+		lineageTag: 4c123f6d-19b4-43e1-ba81-570bd34e8799
+		summarizeBy: none
+		sourceColumn: Product Id
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Product Name'
+		dataType: string
+		lineageTag: f5ac188a-bc22-4ad1-b17d-b9e5c264426b
+		summarizeBy: none
+		sourceColumn: Product Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sales Group'
+		dataType: string
+		lineageTag: 13143cb0-5132-4b29-8389-63da0ef92cfe
+		summarizeBy: none
+		sourceColumn: Sales Group
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sales Type'
+		dataType: string
+		lineageTag: 8807ff49-f882-456e-9628-5936bbd85c87
+		summarizeBy: none
+		sourceColumn: Sales Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column Broadcaster
+		dataType: string
+		lineageTag: 303de9b4-8f55-4da5-934a-d47ecda4cd82
+		summarizeBy: none
+		sourceColumn: Broadcaster
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'License Start'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: ed46fdc5-f347-4397-ae7a-a4648a31722f
+		summarizeBy: none
+		sourceColumn: License Start
+
+		variation Variation
+			isDefault
+			relationship: 8563a8b4-5a88-45a8-9c84-0ad8deb49324
+			defaultHierarchy: LocalDateTable_ecf98fd8-1edd-47a0-9dd7-e904728b8961.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'License End'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: bb22359d-df36-46eb-b748-4a3300dbb9a5
+		summarizeBy: none
+		sourceColumn: License End
+
+		variation Variation
+			isDefault
+			relationship: 322e72b5-b265-4b4b-a840-4ba8d7819d9c
+			defaultHierarchy: LocalDateTable_08dc0011-c393-44db-9a46-50805c520b2d.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'License £'
+		dataType: int64
+		formatString: 0
+		lineageTag: e8ef7e51-8944-4435-bae3-1c0317341542
+		summarizeBy: sum
+		sourceColumn: License £
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Statement Period'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 96ba58bb-149e-492d-b035-d95f808a0347
+		summarizeBy: none
+		sourceColumn: Statement Period
+
+		variation Variation
+			isDefault
+			relationship: 7190d39a-b3da-4982-a5a7-2e45743884b7
+			defaultHierarchy: LocalDateTable_eae3859f-cf38-4c80-9a12-1d9109b4255f.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Sales Period'
+		dataType: dateTime
+		formatString: yyyy-mm
+		lineageTag: aa66a7a3-a583-4874-af93-79c3d04a50f7
+		summarizeBy: none
+		sourceColumn: Sales Period
+
+		variation Variation
+			isDefault
+			relationship: 5962acd7-15a6-4ded-ab6e-a8f9bc5e596b
+			defaultHierarchy: LocalDateTable_c5f04b0e-8e1c-40bf-b4d3-c5706be467a6.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	column 'Income £'
+		dataType: double
+		formatString: "£"#,0.00;-"£"#,0.00;"£"#,0.00
+		lineageTag: 4633af04-08d1-4bcd-8be1-40793c319e95
+		summarizeBy: sum
+		sourceColumn: Income £
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	column 'sales periodkey' = FORMAT('Table 1 (Sheet1)'[Sales Period],"mmyyyy")
+		lineageTag: 39563194-f9aa-4898-ba8e-bab5b372e5db
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column year = YEAR('Table 1 (Sheet1)'[Sales Period])
+		formatString: 0
+		lineageTag: 4c34739b-4411-4105-8485-d89c7647feda
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column month = MONTH('Table 1 (Sheet1)'[Sales Period])
+		formatString: 0
+		lineageTag: 5f152395-5c51-4a7b-94e7-ff01aed72ec5
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column quater = SWITCH(TRUE(),AND('Table 1 (Sheet1)'[month]>=1,'Table 1 (Sheet1)'[month]<=3),1,AND('Table 1 (Sheet1)'[month]>3,'Table 1 (Sheet1)'[month]<=6),2,AND('Table 1 (Sheet1)'[month]>6,'Table 1 (Sheet1)'[month]<=9),3,AND('Table 1 (Sheet1)'[month]>9,'Table 1 (Sheet1)'[month]<=12),4)
+		formatString: 0
+		lineageTag: d0b8d5a0-7c2a-4dcc-be23-f1cfa2dabfb2
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column Current_yearfilter = IF('Table 1 (Sheet1)'[year]=CALCULATE(MAX('Table 1 (Sheet1)'[year]),ALL()),"yes","No")
+		lineageTag: abb89bf7-45f4-4091-922e-f7686f806adb
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column Current_month_filter = if(AND('Table 1 (Sheet1)'[month]=CALCULATE(MAX('Table 1 (Sheet1)'[month]),all(),'Table 1 (Sheet1)'[Current_yearfilter]="yes"),'Table 1 (Sheet1)'[Current_yearfilter]="yes"),"yes","No")
+		lineageTag: bf5488d1-84c4-402d-9c6c-e4ec5bb899c2
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column Current_quater_filter = if(AND('Table 1 (Sheet1)'[quater]=CALCULATE(MAX('Table 1 (Sheet1)'[quater]),all(),'Table 1 (Sheet1)'[Current_yearfilter]="yes"),'Table 1 (Sheet1)'[Current_yearfilter]="yes"),"yes","No")
+		lineageTag: 77b66ba5-21ab-4afe-993a-b2752a79eb5c
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sales period dup' = FORMAT('Table 1 (Sheet1)'[Sales Period],"mmm-yyyy")
+		lineageTag: 2885d9d7-7884-4039-9a1f-969c3727bd72
+		summarizeBy: none
+		sortByColumn: sort_column
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column sort_column = 'Table 1 (Sheet1)'[year]&'Table 1 (Sheet1)'[month]
+		dataType: int64
+		formatString: 0
+		lineageTag: 77108563-71ae-4a4a-a98f-fd9d5069c17c
+		summarizeBy: sum
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+	column Media
+		dataType: string
+		lineageTag: 929bcf39-a16d-4034-80e0-57ecbebae9ad
+		summarizeBy: none
+		sourceColumn: Media
+
+		annotation SummarizationSetBy = Automatic
+
+	column Distributor
+		dataType: string
+		lineageTag: e727249d-9f17-4104-b4c4-8800dd81b341
+		summarizeBy: none
+		sourceColumn: Distributor
+
+		annotation SummarizationSetBy = Automatic
+
+	column Units
+		dataType: int64
+		formatString: 0
+		lineageTag: bc60eef7-1f4d-4b31-af8e-8533a3e0a99d
+		summarizeBy: sum
+		sourceColumn: Units
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Royalty Rate'
+		dataType: double
+		lineageTag: b118bfe9-8501-40dd-b8ed-d6868321dab9
+		summarizeBy: sum
+		sourceColumn: Royalty Rate
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Royalty £'
+		dataType: double
+		lineageTag: 935caf4e-918c-4fbe-979e-4863ff510ab7
+		summarizeBy: sum
+		sourceColumn: Royalty £
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ReserveRate
+		dataType: double
+		lineageTag: c22cb8a0-29db-4455-8181-b4c432ea26be
+		summarizeBy: sum
+		sourceColumn: ReserveRate
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Reserves Taken'
+		dataType: double
+		lineageTag: 46731db4-6908-4d8a-a0ab-dc23a9f41551
+		summarizeBy: sum
+		sourceColumn: Reserves Taken
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Reserves Repaid'
+		dataType: double
+		lineageTag: d0fb9fc4-63ce-40c9-a797-87cbde1b94b5
+		summarizeBy: sum
+		sourceColumn: Reserves Repaid
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Total C/Fwd'
+		dataType: double
+		lineageTag: 3962b218-c823-443d-be68-7d6eb8e3d8d4
+		summarizeBy: sum
+		sourceColumn: Total C/Fwd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Territory
+		dataType: string
+		lineageTag: 6d7743c6-3ad3-46eb-b46f-9f6d1228de50
+		dataCategory: Place
+		summarizeBy: none
+		sourceColumn: Territory
+
+		annotation SummarizationSetBy = Automatic
+
+	column Territory(modified) = IF('Table 1 (Sheet1)'[Territory]="US","USA",'Table 1 (Sheet1)'[Territory])
+		lineageTag: 6d2e3717-7e98-4b98-a1d1-0f2334032e22
+		dataCategory: Place
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column current_month = IF(AND('Table 1 (Sheet1)'[Current_yearfilter]="yes",'Table 1 (Sheet1)'[Current_month_filter]="yes"),"yes",BLANK())
+		lineageTag: 0181e3c6-d3c4-45e9-8c08-aacbcfbdea78
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Table 1 (Sheet1)' = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\ChandAW1\OneDrive - BBC\Desktop\Death In Paradise S5 Sales.xlsx"), null, false),
+				    Sheet1_sheet = Source{[Item="Sheet1",Kind="Sheet"]}[Data],
+				    FilterNullAndWhitespace = each List.Select(_, each _ <> null and (not (_ is text) or Text.Trim(_) <> "")),
+				    #"Removed Top Rows" = Table.Skip(Sheet1_sheet, each try List.IsEmpty(List.Skip(FilterNullAndWhitespace(Record.FieldValues(_)), 2)) otherwise false),
+				    #"Removed Other Columns" = Table.SelectColumns(#"Removed Top Rows", List.Select(Table.ColumnNames(#"Removed Top Rows"), each try not List.IsEmpty(FilterNullAndWhitespace(Table.Column(#"Removed Top Rows", _))) otherwise true)),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Removed Other Columns", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Period Type", type text}, {"Product Id", Int64.Type}, {"Product Name", type text}, {"Sales Group", type text}, {"Sales Type", type text}, {"Territory", type text}, {"Broadcaster", type text}, {"License Start", type date}, {"License End", type date}, {"License £", Int64.Type}, {"Statement Period", type date}, {"Sales Period", type date}, {"Income £", type number}}),
+				    #"Filtered Rows" = Table.SelectRows(#"Changed Type", each ([Broadcaster] <> "Total TV Sales")),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Filtered Rows",{{"Product Id", type text}}),
+				    #"Appended Query" = Table.Combine({#"Changed Type1", #"Table 2 (Sheet2)", #"Table 3 (Sheet3)"})
+				in
+				    #"Appended Query"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

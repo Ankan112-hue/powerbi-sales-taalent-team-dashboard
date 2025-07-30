@@ -1,0 +1,137 @@
+table 'Table 2 (Sheet2)'
+	lineageTag: 00380447-fa87-43a6-9925-8e5df2b3c912
+
+	column 'Period Type'
+		dataType: string
+		lineageTag: 83d08f34-fd18-4bbe-97ca-a18eba7ce2c1
+		summarizeBy: none
+		sourceColumn: Period Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Product Id'
+		dataType: string
+		lineageTag: a2ad2e31-7efd-4c82-a852-b61cecd71cae
+		summarizeBy: none
+		sourceColumn: Product Id
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Product Name'
+		dataType: string
+		lineageTag: e60a9f5c-9e4a-4a9d-860b-291bba382477
+		summarizeBy: none
+		sourceColumn: Product Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sales Group'
+		dataType: string
+		lineageTag: 27b4abf7-dfdd-4e01-9490-65de2d435aa5
+		summarizeBy: none
+		sourceColumn: Sales Group
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sales Type'
+		dataType: string
+		lineageTag: 4b42093c-c7bd-4af0-9170-4df3ea4b942c
+		summarizeBy: none
+		sourceColumn: Sales Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column Media
+		dataType: string
+		lineageTag: cf0cf0da-2be9-4af9-8f96-bb21b05135ef
+		summarizeBy: none
+		sourceColumn: Media
+
+		annotation SummarizationSetBy = Automatic
+
+	column Territory
+		dataType: string
+		lineageTag: 382203f6-5293-4490-b825-020077008f9e
+		summarizeBy: none
+		sourceColumn: Territory
+
+		annotation SummarizationSetBy = Automatic
+
+	column Distributor
+		dataType: string
+		lineageTag: 6f38686c-b75a-4bd7-970a-6ea54e2f8275
+		summarizeBy: none
+		sourceColumn: Distributor
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Statement Period'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 068d457c-7ba1-41f9-9037-4858e02125d2
+		summarizeBy: none
+		sourceColumn: Statement Period
+
+		variation Variation
+			isDefault
+			relationship: 68ef9ccb-d36f-4169-a809-61fc16ca20a7
+			defaultHierarchy: LocalDateTable_848170e7-8bc7-4815-9479-c89fd3f83612.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Sales Period'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 944668a9-9a55-4383-860e-bfc1c2f71aa9
+		summarizeBy: none
+		sourceColumn: Sales Period
+
+		variation Variation
+			isDefault
+			relationship: 77e23e22-2694-4b7d-b359-31e213ef0855
+			defaultHierarchy: LocalDateTable_d077f5aa-c15d-4b3d-9a43-73dcf9aaf3cc.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Units
+		dataType: int64
+		formatString: 0
+		lineageTag: a9a70286-6648-4706-b993-816eea99b949
+		summarizeBy: sum
+		sourceColumn: Units
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Income £'
+		dataType: double
+		lineageTag: 156ac3b2-1af2-4c06-acd9-17adde0f7fac
+		summarizeBy: sum
+		sourceColumn: Income £
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'Table 2 (Sheet2)' = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\ChandAW1\OneDrive - BBC\Desktop\Death In Paradise S5 Sales.xlsx"), null, false),
+				    Sheet2_sheet = Source{[Item="Sheet2",Kind="Sheet"]}[Data],
+				    FilterNullAndWhitespace = each List.Select(_, each _ <> null and (not (_ is text) or Text.Trim(_) <> "")),
+				    #"Removed Top Rows" = Table.Skip(Sheet2_sheet, each try List.IsEmpty(List.Skip(FilterNullAndWhitespace(Record.FieldValues(_)), 2)) otherwise false),
+				    #"Removed Other Columns" = Table.SelectColumns(#"Removed Top Rows", List.Select(Table.ColumnNames(#"Removed Top Rows"), each try not List.IsEmpty(FilterNullAndWhitespace(Table.Column(#"Removed Top Rows", _))) otherwise true)),
+				    #"Removed Blank Rows" = Table.SelectRows(#"Removed Other Columns", each not List.IsEmpty(FilterNullAndWhitespace(Record.FieldValues(_)))),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Removed Blank Rows", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Period Type", type text}, {"Product Id", type text}, {"Product Name", type text}, {"Sales Group", type text}, {"Sales Type", type text}, {"Media", type text}, {"Territory", type text}, {"Distributor", type text}, {"Statement Period", type date}, {"Sales Period", type date}, {"Units", Int64.Type}, {"Income £", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

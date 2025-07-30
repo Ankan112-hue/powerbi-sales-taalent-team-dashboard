@@ -1,0 +1,195 @@
+table 'Table 3 (Sheet3)'
+	lineageTag: 2ab7c969-7c31-41c8-b952-bb0fc27d87c7
+
+	column 'Period Type'
+		dataType: string
+		lineageTag: 420f22d8-163d-4ffb-8f24-0179a0338d31
+		summarizeBy: none
+		sourceColumn: Period Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Product Id'
+		dataType: string
+		lineageTag: fc40de9f-192d-4fb5-8fb1-57108c7bbea4
+		summarizeBy: none
+		sourceColumn: Product Id
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Product Name'
+		dataType: string
+		lineageTag: 3c49bdb6-455c-4666-b049-d2a16dd6c71a
+		summarizeBy: none
+		sourceColumn: Product Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sales Type'
+		dataType: string
+		lineageTag: 38eac7e1-2ad1-47b6-8d93-37f344938ddb
+		summarizeBy: none
+		sourceColumn: Sales Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column Media
+		dataType: string
+		lineageTag: f30837cf-522c-4b89-a314-90f64d2d3c25
+		summarizeBy: none
+		sourceColumn: Media
+
+		annotation SummarizationSetBy = Automatic
+
+	column Territory
+		dataType: string
+		lineageTag: f4b61445-581e-42bb-9089-65e79d2e9c57
+		summarizeBy: none
+		sourceColumn: Territory
+
+		annotation SummarizationSetBy = Automatic
+
+	column Distributor
+		dataType: string
+		lineageTag: 42da4a8c-94a0-46c6-a8c3-881a14298f32
+		summarizeBy: none
+		sourceColumn: Distributor
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sales Period'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: e4f6d28d-181e-433a-b461-54888f02b736
+		summarizeBy: none
+		sourceColumn: Sales Period
+
+		variation Variation
+			isDefault
+			relationship: 9f9b1ace-4fef-4cd6-b13c-813853a9eef0
+			defaultHierarchy: LocalDateTable_d3111745-e642-482a-b32b-a65b35cebd7b.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Statement Period'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: e4fcd601-385d-4ded-8341-4f63206821bf
+		summarizeBy: none
+		sourceColumn: Statement Period
+
+		variation Variation
+			isDefault
+			relationship: 29f1aff5-9bb2-4bfe-b70f-765d7001e8b0
+			defaultHierarchy: LocalDateTable_d98a0432-f265-4cfe-82f5-bf78d835517c.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Royalty Rate'
+		dataType: double
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 17be8ce5-0b3c-4f60-83d6-87be5dcff6ce
+		summarizeBy: sum
+		sourceColumn: Royalty Rate
+
+		annotation SummarizationSetBy = Automatic
+
+	column Units
+		dataType: int64
+		formatString: 0
+		lineageTag: 6a893711-61e2-4dd0-a9f6-ab802e1a7ff8
+		summarizeBy: sum
+		sourceColumn: Units
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Income £'
+		dataType: double
+		lineageTag: 36de8ac7-d96c-4c8c-a726-dae4204d75f1
+		summarizeBy: sum
+		sourceColumn: Income £
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Royalty £'
+		dataType: double
+		lineageTag: 4623ea99-2658-4cd7-b86d-c38f250fa981
+		summarizeBy: sum
+		sourceColumn: Royalty £
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ReserveRate
+		dataType: double
+		lineageTag: dd2bfd25-e1c0-408b-9f5f-fb3891a400d8
+		summarizeBy: sum
+		sourceColumn: ReserveRate
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Reserves Taken'
+		dataType: double
+		lineageTag: e659fc77-5b78-40b8-bff9-4474ef941e97
+		summarizeBy: sum
+		sourceColumn: Reserves Taken
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Reserves Repaid'
+		dataType: double
+		lineageTag: 3b40f8d9-96e3-4127-bc15-a02a118002b4
+		summarizeBy: sum
+		sourceColumn: Reserves Repaid
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Total C/Fwd'
+		dataType: double
+		lineageTag: 3a48baf8-3ef9-4adf-805f-9ab6c9a373fe
+		summarizeBy: sum
+		sourceColumn: Total C/Fwd
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'sales periodkey' = FORMAT('Table 3 (Sheet3)'[Sales Period],"mmyyyy")
+		lineageTag: ff86c841-b61e-47fd-9ad7-18a3e74bb3a4
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Table 3 (Sheet3)' = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\ChandAW1\OneDrive - BBC\Desktop\Death In Paradise S5 Sales.xlsx"), null, false),
+				    Sheet3_sheet = Source{[Item="Sheet3",Kind="Sheet"]}[Data],
+				    FilterNullAndWhitespace = each List.Select(_, each _ <> null and (not (_ is text) or Text.Trim(_) <> "")),
+				    #"Removed Top Rows" = Table.Skip(Sheet3_sheet, each try List.IsEmpty(List.Skip(FilterNullAndWhitespace(Record.FieldValues(_)), 2)) otherwise false),
+				    #"Removed Other Columns" = Table.SelectColumns(#"Removed Top Rows", List.Select(Table.ColumnNames(#"Removed Top Rows"), each try not List.IsEmpty(FilterNullAndWhitespace(Table.Column(#"Removed Top Rows", _))) otherwise true)),
+				    #"Removed Blank Rows" = Table.SelectRows(#"Removed Other Columns", each not List.IsEmpty(FilterNullAndWhitespace(Record.FieldValues(_)))),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Removed Blank Rows", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Period Type", type text}, {"Product Id", type text}, {"Product Name", type text}, {"Sales Type", type text}, {"Media", type text}, {"Territory", type text}, {"Distributor", type text}, {"Period", type date}, {"Statement Period", type date}, {"Royalty #(lf)Rate", type number}, {"Units", Int64.Type}, {"Receipts", type number}, {"Royalty £", type number}, {"Reserve#(lf)Rate", type number}, {"Reserves Taken", type number}, {"Reserves Repaid", type number}, {"Total C/Fwd", type number}}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Changed Type",{{"Receipts", "Income £"}, {"Period", "Sales Period"}})
+				in
+				    #"Renamed Columns"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

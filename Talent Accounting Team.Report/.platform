@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Talent Accounting Team"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "d08ea57c-22b9-4f62-9cb7-07bbcb3898cd"
+  }
+}

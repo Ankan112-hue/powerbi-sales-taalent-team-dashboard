@@ -1,0 +1,60 @@
+table calendar
+	lineageTag: 16eca5da-b405-425d-a1f1-a3dde72ae75e
+
+	column Period
+		formatString: mmmm yyyy
+		lineageTag: d7342670-92e2-4903-b5cf-5f1e292b8157
+		summarizeBy: none
+		sourceColumn: Table 1 (Sheet1)[Sales Period]
+
+		variation Variation
+			isDefault
+			relationship: 3d22f4db-cb71-4b8e-a9a3-7cb286c018ac
+			defaultHierarchy: LocalDateTable_9cc63a4e-7517-439c-b5fe-cb9ec718297c.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	column 'Period key'
+		lineageTag: 3ea927a2-e30e-4077-b6fe-7ed0988350f7
+		summarizeBy: none
+		sourceColumn: Table 1 (Sheet1)[sales periodkey]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Period(in month)' = FORMAT('calendar'[Period],"mmm-yyyy")
+		lineageTag: 43208646-287a-45f8-9a62-ad2b491d4987
+		summarizeBy: none
+		sortByColumn: sort_col
+
+		annotation SummarizationSetBy = Automatic
+
+	column sort_col = YEAR('calendar'[Period])&IF(LEN(MONTH('calendar'[Period]))=1,"0"&MONTH('calendar'[Period]),MONTH('calendar'[Period]))
+		lineageTag: a0384f26-b974-429c-93f6-108232854b86
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column rank = RANK(DENSE,ALLSELECTED('calendar'[sort_col],'calendar'[Column]),ORDERBY('calendar'[sort_col],ASC),,PARTITIONBY('calendar'[Column]))
+		formatString: 0
+		lineageTag: 3e316327-70f7-43fc-8b8e-fd3189cca2a7
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column = 1
+		formatString: 0
+		lineageTag: 62209bc9-bd6c-4af1-b5e9-92328bdd0b58
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition calendar = calculated
+		mode: import
+		source =
+				DISTINCT(UNION(SUMMARIZE('Table 1 (Sheet1)','Table 1 (Sheet1)'[Sales Period],'Table 1 (Sheet1)'[sales periodkey]),
+				SUMMARIZE('Table 2 (IPA-09-0321)','Table 2 (IPA-09-0321)'[cost period],'Table 2 (IPA-09-0321)'[cost_datekey])))
+
+	annotation PBI_Id = 15b4517603b249ef862198495121c405
+

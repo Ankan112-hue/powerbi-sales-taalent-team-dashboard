@@ -1,0 +1,197 @@
+table 'Table 2 (IPA-09-0321)'
+	lineageTag: db70fe86-6627-4b12-b79d-eea53ee9919b
+
+	column 'Period Type'
+		dataType: string
+		lineageTag: e9dc18d9-cc5a-44f0-819a-9f08d7fecf10
+		summarizeBy: none
+		sourceColumn: Period Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Product Id'
+		dataType: string
+		lineageTag: b17bde25-3714-4bb2-b148-669ce2eaecd7
+		summarizeBy: none
+		sourceColumn: Product Id
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Product Name'
+		dataType: string
+		lineageTag: f8943a3e-499d-4847-ae89-c6571b069dc1
+		summarizeBy: none
+		sourceColumn: Product Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Media Type'
+		dataType: string
+		lineageTag: 122adc26-0b35-40b4-bfc3-6f78fe95aafd
+		summarizeBy: none
+		sourceColumn: Media Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Cost Group'
+		dataType: string
+		lineageTag: bea8ebc4-cb40-4ba4-a662-b86d3528c39e
+		summarizeBy: none
+		sourceColumn: Cost Group
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Cost Type'
+		dataType: string
+		lineageTag: a53aa1bd-189e-42c0-a466-b1c9c25b8eab
+		summarizeBy: none
+		sourceColumn: Cost Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column Territory
+		dataType: string
+		lineageTag: 948b25aa-8220-4b48-b83d-9e7a2d1da476
+		summarizeBy: none
+		sourceColumn: Territory
+
+		annotation SummarizationSetBy = Automatic
+
+	column Period
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: c1f2b420-d6b4-4cc9-836a-dcfebecffefa
+		summarizeBy: none
+		sourceColumn: Period
+
+		variation Variation
+			isDefault
+			relationship: 92c67fc0-3957-498c-8a6a-3c835099b678
+			defaultHierarchy: LocalDateTable_d81bfb93-e2a6-4457-bd74-09de46945a73.'Date Hierarchy'
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Cost £'
+		dataType: double
+		formatString: "£"#,0.00;-"£"#,0.00;"£"#,0.00
+		lineageTag: 455414d3-62ef-482c-bf3b-b531d8407bba
+		summarizeBy: sum
+		sourceColumn: Cost £
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	column cost_datekey = FORMAT('Table 2 (IPA-09-0321)'[Period],"mmyyyy")
+		lineageTag: d5c1e4cf-6193-42dd-b147-17bc1dffedd4
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column week = WEEKNUM('Table 2 (IPA-09-0321)'[Period])
+		formatString: 0
+		lineageTag: 6668b7bf-7ef0-4f1d-9afb-bfacbedbaf52
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column month = MONTH('Table 2 (IPA-09-0321)'[Period])
+		formatString: 0
+		lineageTag: 95811bf5-3cd9-43ee-a03f-6932b2976bbf
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column year = YEAR('Table 2 (IPA-09-0321)'[Period])
+		formatString: 0
+		lineageTag: 069a0b86-e876-481f-b204-843c8a1f987d
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column quater = SWITCH(TRUE(),AND('Table 2 (IPA-09-0321)'[month]>=1,'Table 2 (IPA-09-0321)'[month]<=3),1,AND('Table 2 (IPA-09-0321)'[month]>3,'Table 2 (IPA-09-0321)'[month]<=6),2,AND('Table 2 (IPA-09-0321)'[month]>6,'Table 2 (IPA-09-0321)'[month]<=9),3,AND('Table 2 (IPA-09-0321)'[month]>9,'Table 2 (IPA-09-0321)'[month]<=12),4)
+		formatString: 0
+		lineageTag: 7ea5934d-681b-4012-83c6-81cd5b8bfc50
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column Current_yearfilter = IF('Table 2 (IPA-09-0321)'[year]=CALCULATE(MAX('Table 2 (IPA-09-0321)'[year]),ALL()),"yes","No")
+		lineageTag: f3c59e42-1c3f-46b1-af81-4cd78d5c0fae
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column Current_month_filter =
+			if(AND('Table 2 (IPA-09-0321)'[month]=CALCULATE(MAX('Table 2 (IPA-09-0321)'[month]),all(),'Table 2 (IPA-09-0321)'[Current_yearfilter]="yes"),
+			'Table 2 (IPA-09-0321)'[Current_yearfilter]="yes"),"yes","No")
+		lineageTag: 4f4477e9-c59d-42f8-ac24-eb18c910de96
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column Current_quater_filter =
+			if(AND('Table 2 (IPA-09-0321)'[quater]=CALCULATE(MAX('Table 2 (IPA-09-0321)'[quater]),all(),'Table 2 (IPA-09-0321)'[Current_yearfilter]="yes"),
+			'Table 2 (IPA-09-0321)'[Current_yearfilter]="yes"),"yes","No")
+		lineageTag: 11f69bc7-eb2a-4709-9e20-2dd8101fcabd
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column Current_week_filter =
+			if(AND('Table 2 (IPA-09-0321)'[week]=CALCULATE(MAX('Table 2 (IPA-09-0321)'[week]),all(),'Table 2 (IPA-09-0321)'[Current_yearfilter]="yes"),
+			'Table 2 (IPA-09-0321)'[Current_yearfilter]="yes"),"yes","No")
+		lineageTag: 842f9c63-b74c-4ff2-9864-6c4e33df59fe
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'cost period' = FORMAT('Table 2 (IPA-09-0321)'[Period],"mmm-yyyy")
+		dataType: dateTime
+		formatString: yyyy-mm
+		lineageTag: de7cb310-8384-4bd1-bb94-ea5677ae7688
+		summarizeBy: none
+
+		variation Variation
+			isDefault
+			relationship: db94bf87-d79d-4920-9520-098bbf7087c0
+			defaultHierarchy: LocalDateTable_f9a50421-0017-44ee-a5ff-e0ddeb912ae6.'Date Hierarchy'
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	column cost_period_dup = FORMAT('Table 2 (IPA-09-0321)'[cost period],"mmm-yyyy")
+		lineageTag: 73955ea8-6f37-4749-99d8-0b51eb157805
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Table 2 (IPA-09-0321)' = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\ChandAW1\OneDrive - BBC\Desktop\Death In Paradise S5 Costs.xlsx"), null, false),
+				    #"IPA-09-0321_sheet" = Source{[Item="IPA-09-0321",Kind="Sheet"]}[Data],
+				    FilterNullAndWhitespace = each List.Select(_, each _ <> null and (not (_ is text) or Text.Trim(_) <> "")),
+				    #"Removed Top Rows" = Table.Skip(#"IPA-09-0321_sheet", each try List.IsEmpty(List.Skip(FilterNullAndWhitespace(Record.FieldValues(_)), 2)) otherwise false),
+				    #"Removed Other Columns" = Table.SelectColumns(#"Removed Top Rows", List.Select(Table.ColumnNames(#"Removed Top Rows"), each try not List.IsEmpty(FilterNullAndWhitespace(Table.Column(#"Removed Top Rows", _))) otherwise true)),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Removed Other Columns", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Cost £", type number}}),
+				    #"Filtered Rows" = Table.SelectRows(#"Changed Type", each ([Period] <> "Total Costs")),
+				    #"Removed Columns" = Table.RemoveColumns(#"Filtered Rows",{"Column1"})
+				in
+				    #"Removed Columns"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
