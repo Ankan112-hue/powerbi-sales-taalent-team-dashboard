@@ -301,7 +301,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Sales value by Period'"
+                  "Value": "'Sales value by month'"
                 }
               }
             }

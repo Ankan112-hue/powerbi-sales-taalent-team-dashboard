@@ -17,12 +17,6 @@ cultureInfo en-US
 			          "table 1 (Sheet1)": {
 			            "State": "Generated"
 			          }
-			        },
-			        {
-			          "table 1 (Sheet1)": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
 			        }
 			      ]
 			    },
@@ -45,20 +39,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "period type": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "type": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "type": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -184,20 +165,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "product id": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "product": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "product": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -319,20 +287,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "product name": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "product": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "product": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -454,12 +409,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sales group": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "sale group": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -543,12 +492,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sales type": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "sale type": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -557,13 +500,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "type": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "type": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -685,12 +621,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "broadcaster": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "newscaster": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -781,33 +711,13 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "license start": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "date": {
 			            "State": "Generated",
 			            "Weight": 0.7
 			          }
 			        },
 			        {
-			          "date": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.7
-			          }
-			        },
-			        {
 			          "start": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "start": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -935,33 +845,13 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "license start date hierarchy": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "date hierarchy": {
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
 			        },
 			        {
-			          "date hierarchy": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "start date hierarchy": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "start date hierarchy": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -990,31 +880,12 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "license start year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "year": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "start year": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "start year": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -1073,31 +944,12 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "license start quarter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "quarter": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "quarter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "start quarter": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "start quarter": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -1156,31 +1008,12 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "license start month": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "month": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "month": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "start month": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "start month": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -1239,31 +1072,12 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "license start day": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "day": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "day": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "start day": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "start day": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -1290,33 +1104,13 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "license end": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "date": {
 			            "State": "Generated",
 			            "Weight": 0.7
 			          }
 			        },
 			        {
-			          "date": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.7
-			          }
-			        },
-			        {
 			          "end": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "end": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -1445,33 +1239,13 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "license end date hierarchy": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "date hierarchy": {
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
 			        },
 			        {
-			          "date hierarchy": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "end date hierarchy": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "end date hierarchy": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -1501,31 +1275,12 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "license end year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "year": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "end year": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "end year": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -1655,31 +1410,12 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "license end quarter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "quarter": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "quarter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "end quarter": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "end quarter": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -1809,31 +1545,12 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "license end month": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "month": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "month": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "end month": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "end month": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -1963,31 +1680,12 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "license end day": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "day": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "day": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "end day": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "end day": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -2112,12 +1810,6 @@ cultureInfo en-US
 			          "license £": {
 			            "State": "Generated"
 			          }
-			        },
-			        {
-			          "license £": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
 			        }
 			      ]
 			    },
@@ -2140,33 +1832,13 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "statement period": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "date": {
 			            "State": "Generated",
 			            "Weight": 0.7
 			          }
 			        },
 			        {
-			          "date": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.7
-			          }
-			        },
-			        {
 			          "period": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -2294,33 +1966,13 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "statement period date hierarchy": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "date hierarchy": {
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
 			        },
 			        {
-			          "date hierarchy": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "period date hierarchy": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period date hierarchy": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -2349,31 +2001,12 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "statement period year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "year": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period year": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period year": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -2432,31 +2065,12 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "statement period quarter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "quarter": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "quarter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period quarter": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period quarter": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -2515,31 +2129,12 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "statement period month": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "month": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "month": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period month": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period month": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -2598,31 +2193,12 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "statement period day": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "day": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "day": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period day": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period day": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -2649,12 +2225,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sales period": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "sale period": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -2668,21 +2238,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "date": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.7
-			          }
-			        },
-			        {
 			          "period": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -2800,12 +2356,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sales period date hierarchy": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "sale period date hierarchy": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -2819,21 +2369,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "date hierarchy": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "period date hierarchy": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period date hierarchy": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -2862,12 +2398,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sales period year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "sale period year": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -2880,20 +2410,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period year": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period year": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -2952,12 +2469,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sales period quarter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "sale period quarter": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -2970,20 +2481,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "quarter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period quarter": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period quarter": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -3042,12 +2540,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sales period month": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "sale period month": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -3060,20 +2552,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "month": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period month": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period month": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -3132,12 +2611,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sales period day": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "sale period day": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -3150,20 +2623,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "day": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period day": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period day": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -3186,39 +2646,8 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "income": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Source": {
-			              "Type": "User"
-			            }
-			          }
-			        },
-			        {
 			          "sales": {
 			            "LastModified": "2025-07-28T14:33:38.552Z"
-			          }
-			        },
-			        {
-			          "sales": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Source": {
-			              "Type": "User"
-			            }
-			          }
-			        },
-			        {
-			          "income £": {
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T14:33:43.945Z"
-			          }
-			        },
-			        {
-			          "Sale": {
-			            "Type": "Noun",
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T14:18:20.537Z"
 			          }
 			        },
 			        {
@@ -3250,6 +2679,19 @@ cultureInfo en-US
 			            },
 			            "Weight": 0.476
 			          }
+			        },
+			        {
+			          "income £": {
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T14:33:43.945Z"
+			          }
+			        },
+			        {
+			          "Sale": {
+			            "Type": "Noun",
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T14:18:20.537Z"
+			          }
 			        }
 			      ]
 			    },
@@ -3267,12 +2709,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "sales periodkey": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "sales periodkey": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -3300,12 +2736,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "year": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "year": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -3341,12 +2771,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "month": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "mth": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -3375,12 +2799,6 @@ cultureInfo en-US
 			          "quater": {
 			            "State": "Generated"
 			          }
-			        },
-			        {
-			          "quater": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
 			        }
 			      ]
 			    },
@@ -3394,12 +2812,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "table 2 (IPA-09-0321)": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "table 2 (IPA-09-0321)": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        }
@@ -3420,20 +2832,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "period type": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "type": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "type": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -3555,20 +2954,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "product id": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "product": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "product": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -3690,20 +3076,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "product name": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "product": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "product": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -3825,20 +3198,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "media type": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "type": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "type": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -3960,12 +3320,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "cost group": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "cost category": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -4042,20 +3396,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "cost type": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "type": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "type": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -4173,12 +3514,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "territory": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "territory": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -4303,20 +3638,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "period": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "date": {
-			            "State": "Generated",
-			            "Weight": 0.7
-			          }
-			        },
-			        {
-			          "date": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.7
 			          }
@@ -4394,20 +3716,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "period date hierarchy": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "date hierarchy": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "date hierarchy": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -4436,19 +3745,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "period year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "year": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "year": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -4496,19 +3793,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "period quarter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "quarter": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "quarter": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -4556,19 +3841,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "period month": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "month": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "month": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -4616,19 +3889,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "period day": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "day": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "day": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        }
@@ -4647,21 +3908,6 @@ cultureInfo en-US
 			        {
 			          "cost": {
 			            "LastModified": "2025-07-28T16:01:31.863Z"
-			          }
-			        },
-			        {
-			          "cost": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Source": {
-			              "Type": "User"
-			            }
-			          }
-			        },
-			        {
-			          "cost £": {
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T16:01:33.848Z"
 			          }
 			        },
 			        {
@@ -4733,6 +3979,12 @@ cultureInfo en-US
 			            },
 			            "Weight": 0.452
 			          }
+			        },
+			        {
+			          "cost £": {
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T16:01:33.848Z"
+			          }
 			        }
 			      ]
 			    },
@@ -4750,12 +4002,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "cost datekey": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "cost datekey": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -4782,12 +4028,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "measure": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "measure": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -4872,41 +4112,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "month-to-date-sales": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "Current month sales": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        },
-			        {
-			          "Current month sales": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        },
-			        {
 			          "month to date sales": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "month to date sales": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -4950,6 +4156,16 @@ cultureInfo en-US
 			            },
 			            "Weight": 0.599
 			          }
+			        },
+			        {
+			          "Current month sales": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -4972,41 +4188,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "quater-to-date-sales": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "Current quater sales": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        },
-			        {
-			          "Current quater sales": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        },
-			        {
 			          "quater to date sales": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "quater to date sales": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -5040,6 +4222,16 @@ cultureInfo en-US
 			            },
 			            "Weight": 0.599
 			          }
+			        },
+			        {
+			          "Current quater sales": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -5062,41 +4254,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "year-to-date-sales": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "Current year sales": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        },
-			        {
-			          "Current year sales": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        },
-			        {
 			          "year to date sales": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "year to date sales": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -5140,6 +4298,16 @@ cultureInfo en-US
 			            },
 			            "Weight": 0.599
 			          }
+			        },
+			        {
+			          "Current year sales": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -5159,28 +4327,6 @@ cultureInfo en-US
 			        {
 			          "current year": {
 			            "LastModified": "2025-07-28T14:26:44.289Z"
-			          }
-			        },
-			        {
-			          "current year": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Source": {
-			              "Type": "User"
-			            }
-			          }
-			        },
-			        {
-			          "current yearfilter": {
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T14:26:46.282Z"
-			          }
-			        },
-			        {
-			          "Current_yearfilter": {
-			            "Type": "Noun",
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T14:26:35.565Z"
 			          }
 			        },
 			        {
@@ -5232,6 +4378,19 @@ cultureInfo en-US
 			            },
 			            "Weight": 0.471
 			          }
+			        },
+			        {
+			          "current yearfilter": {
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T14:26:46.282Z"
+			          }
+			        },
+			        {
+			          "Current_yearfilter": {
+			            "Type": "Noun",
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T14:26:35.565Z"
+			          }
 			        }
 			      ]
 			    },
@@ -5251,46 +4410,6 @@ cultureInfo en-US
 			        {
 			          "curr month filter": {
 			            "LastModified": "2025-07-28T14:29:07.239Z"
-			          }
-			        },
-			        {
-			          "curr month filter": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Source": {
-			              "Type": "User"
-			            }
-			          }
-			        },
-			        {
-			          "current month": {
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T14:29:08.862Z"
-			          }
-			        },
-			        {
-			          "month filter": {
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T14:26:54.082Z"
-			          }
-			        },
-			        {
-			          "Current_month_filter": {
-			            "Type": "Noun",
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T14:25:53.326Z"
-			          }
-			        },
-			        {
-			          "current month filter": {
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T14:25:52.068Z"
-			          }
-			        },
-			        {
-			          "filter": {
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T14:25:49.009Z"
 			          }
 			        },
 			        {
@@ -5362,6 +4481,37 @@ cultureInfo en-US
 			            },
 			            "Weight": 0.492
 			          }
+			        },
+			        {
+			          "current month": {
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T14:29:08.862Z"
+			          }
+			        },
+			        {
+			          "month filter": {
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T14:26:54.082Z"
+			          }
+			        },
+			        {
+			          "Current_month_filter": {
+			            "Type": "Noun",
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T14:25:53.326Z"
+			          }
+			        },
+			        {
+			          "current month filter": {
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T14:25:52.068Z"
+			          }
+			        },
+			        {
+			          "filter": {
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T14:25:49.009Z"
+			          }
 			        }
 			      ]
 			    },
@@ -5405,12 +4555,6 @@ cultureInfo en-US
 			          "week": {
 			            "State": "Generated"
 			          }
-			        },
-			        {
-			          "week": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
 			        }
 			      ]
 			    },
@@ -5429,12 +4573,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "month": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "month": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -5465,12 +4603,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "yr": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -5496,12 +4628,6 @@ cultureInfo en-US
 			          "quater": {
 			            "State": "Generated"
 			          }
-			        },
-			        {
-			          "quater": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
 			        }
 			      ]
 			    },
@@ -5520,12 +4646,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "current yearfilter": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "current yearfilter": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -5597,12 +4717,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "current month filter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Current_month_filter": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -5616,21 +4730,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "filter": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "month filter": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "month filter": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -5752,12 +4852,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "current quater filter": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "current quater filter": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -5889,12 +4983,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "current week filter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Current_week_filter": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -5908,21 +4996,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "filter": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "week filter": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "week filter": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -6048,41 +5122,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "year-to-date-cost": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "Current year cost": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        },
-			        {
-			          "Current year cost": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        },
-			        {
 			          "year to date cost": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "year to date cost": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -6116,6 +5156,16 @@ cultureInfo en-US
 			            },
 			            "Weight": 0.599
 			          }
+			        },
+			        {
+			          "Current year cost": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -6138,41 +5188,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "month-to-date-cost": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "Current month cost": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        },
-			        {
-			          "Current month cost": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        },
-			        {
 			          "month to date cost": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "month to date cost": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -6206,6 +5222,16 @@ cultureInfo en-US
 			            },
 			            "Weight": 0.599
 			          }
+			        },
+			        {
+			          "Current month cost": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -6228,41 +5254,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "quater-to-date-cost": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "Current quater cost": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        },
-			        {
-			          "Current quater cost": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        },
-			        {
 			          "quater to date cost": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "quater to date cost": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -6286,6 +5278,16 @@ cultureInfo en-US
 			            },
 			            "Weight": 0.599
 			          }
+			        },
+			        {
+			          "Current quater cost": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -6308,41 +5310,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "week-to-date-cost": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "Current week cost": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        },
-			        {
-			          "Current week cost": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        },
-			        {
 			          "week to date cost": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "week to date cost": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -6366,6 +5334,16 @@ cultureInfo en-US
 			            },
 			            "Weight": 0.599
 			          }
+			        },
+			        {
+			          "Current week cost": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -6384,55 +5362,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sales period": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Source": {
-			              "Type": "User"
-			            }
-			          }
-			        },
-			        {
-			          "sale period": {
-			            "Type": "Noun",
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T15:22:04.946Z"
-			          }
-			        },
-			        {
-			          "sales period dup": {
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T15:22:01.619Z"
-			          }
-			        },
-			        {
-			          "period dup": {
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T15:21:49.959Z"
-			          }
-			        },
-			        {
-			          "sale period dup": {
-			            "Type": "Noun",
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T15:21:48.012Z"
-			          }
-			        },
-			        {
-			          "dup": {
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T15:21:45.962Z"
-			          }
-			        },
-			        {
 			          "period": {
-			            "State": "Suggested",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period": {
-			            "Type": "Noun",
 			            "State": "Suggested",
 			            "Weight": 0.97
 			          }
@@ -6526,6 +5456,38 @@ cultureInfo en-US
 			            },
 			            "Weight": 0.451
 			          }
+			        },
+			        {
+			          "sale period": {
+			            "Type": "Noun",
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T15:22:04.946Z"
+			          }
+			        },
+			        {
+			          "sales period dup": {
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T15:22:01.619Z"
+			          }
+			        },
+			        {
+			          "period dup": {
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T15:21:49.959Z"
+			          }
+			        },
+			        {
+			          "sale period dup": {
+			            "Type": "Noun",
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T15:21:48.012Z"
+			          }
+			        },
+			        {
+			          "dup": {
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T15:21:45.962Z"
+			          }
 			        }
 			      ]
 			    },
@@ -6544,12 +5506,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "sort column": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "sort column": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -6681,28 +5637,8 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "date": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.7
-			          }
-			        },
-			        {
 			          "period": {
 			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "cost period": {
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T16:38:36.237Z"
 			          }
 			        },
 			        {
@@ -6754,6 +5690,12 @@ cultureInfo en-US
 			            },
 			            "Weight": 0.452
 			          }
+			        },
+			        {
+			          "cost period": {
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T16:38:36.237Z"
+			          }
 			        }
 			      ],
 			      "SemanticType": "Time"
@@ -6773,12 +5715,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "prev monnth sale": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "prev monnth sale": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -6880,33 +5816,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "monnth on month saleschange percentage": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "Sales change percentage": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        },
-			        {
-			          "Sales change percentage": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        },
-			        {
 			          "Monnth-on-Month_saleschange_percentage": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -6921,6 +5830,16 @@ cultureInfo en-US
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "Sales change percentage": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ]
@@ -6939,12 +5858,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "calendar": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "calendar": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -7039,12 +5952,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "period": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "era": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -7118,20 +6025,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "period date hierarchy": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "date hierarchy": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "date hierarchy": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -7161,19 +6055,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "period year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "year": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "year": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -7222,19 +6104,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "period quarter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "quarter": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "quarter": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -7283,19 +6153,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "period month": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "month": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "month": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -7344,19 +6202,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "period day": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "day": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "day": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        }
@@ -7382,20 +6228,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "period key": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "key": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "key": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -7521,20 +6354,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "period(in month)": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period": {
-			            "State": "Generated",
-			            "Weight": 0.75
-			          }
-			        },
-			        {
-			          "period": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.75
 			          }
@@ -7570,12 +6390,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sort col": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "sort_col": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -7584,13 +6398,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "col": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "col": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -7716,12 +6523,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "rank": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "flourishing": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -7768,12 +6569,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "column": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "column": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -7894,12 +6689,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "prev monnth cost": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "prev monnth cost": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -8031,37 +6820,20 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "monnth on month cost change percentage": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "Cost change percentage": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        },
-			        {
-			          "Cost change percentage": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        },
-			        {
 			          "Monnth-on-Month_cost_change_percentage": {
 			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Cost change percentage": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ]
@@ -8077,12 +6849,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "media": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "media": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -8199,12 +6965,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "distributor": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "distributor": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -8432,35 +7192,8 @@ cultureInfo en-US
 			          "royalty rate": {}
 			        },
 			        {
-			          "royalty rate": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Royalty rate taken": {
 			            "LastModified": "2025-07-28T16:20:53.382Z"
-			          }
-			        },
-			        {
-			          "Royalty rate taken": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Source": {
-			              "Type": "User"
-			            }
-			          }
-			        },
-			        {
-			          "royalty rate taken by": {
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T16:18:15.561Z"
-			          }
-			        },
-			        {
-			          "rate": {
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T16:18:14.035Z"
 			          }
 			        },
 			        {
@@ -8562,6 +7295,18 @@ cultureInfo en-US
 			            },
 			            "Weight": 0.5
 			          }
+			        },
+			        {
+			          "royalty rate taken by": {
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T16:18:15.561Z"
+			          }
+			        },
+			        {
+			          "rate": {
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T16:18:14.035Z"
+			          }
 			        }
 			      ]
 			    },
@@ -8580,38 +7325,8 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "royalty": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Source": {
-			              "Type": "User"
-			            }
-			          }
-			        },
-			        {
 			          "royalty taken": {
 			            "LastModified": "2025-07-28T16:18:09.708Z"
-			          }
-			        },
-			        {
-			          "royalty taken": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Source": {
-			              "Type": "User"
-			            }
-			          }
-			        },
-			        {
-			          "royalty taken by": {
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T16:17:59.666Z"
-			          }
-			        },
-			        {
-			          "royalty £": {
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T16:11:06.307Z"
 			          }
 			        },
 			        {
@@ -8713,6 +7428,18 @@ cultureInfo en-US
 			            },
 			            "Weight": 0.452
 			          }
+			        },
+			        {
+			          "royalty taken by": {
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T16:17:59.666Z"
+			          }
+			        },
+			        {
+			          "royalty £": {
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T16:11:06.307Z"
+			          }
 			        }
 			      ]
 			    },
@@ -8735,12 +7462,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "reserve rate": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "ReserveRate": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -8749,13 +7470,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "rate": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "rate": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -8881,12 +7595,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "reserve taken": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "store taken": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -8993,12 +7701,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "reserve repaid": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "reserve repaid": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -9113,20 +7815,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "total c/fwd": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "total c": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "total c": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -9138,34 +7827,13 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "c": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "total c fwd": {
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
 			        },
 			        {
-			          "total c fwd": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "fwd": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "fwd": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -9247,20 +7915,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "territory": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "place": {
-			            "State": "Generated",
-			            "Weight": 0.7
-			          }
-			        },
-			        {
-			          "place": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.7
 			          }
@@ -9377,33 +8032,13 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "territory(modified)": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "place": {
 			            "State": "Generated",
 			            "Weight": 0.7
 			          }
 			        },
 			        {
-			          "place": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.7
-			          }
-			        },
-			        {
 			          "territory": {
-			            "State": "Generated",
-			            "Weight": 0.75
-			          }
-			        },
-			        {
-			          "territory": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.75
 			          }
@@ -9425,12 +8060,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "table 2 (Sheet2)": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "table 2 (Sheet2)": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        }
@@ -9455,20 +8084,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "period type": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "type": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "type": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -9594,20 +8210,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "product id": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "product": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "product": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -9733,20 +8336,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "product name": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "product": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "product": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -9872,12 +8462,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sales group": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "sale group": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -9965,12 +8549,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sales type": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "sale type": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -9979,13 +8557,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "type": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "type": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -10111,12 +8682,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "media": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "television": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -10233,12 +8798,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "territory": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "territory": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -10363,12 +8922,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "distributor": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "supplier": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -10489,20 +9042,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "statement period": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -10631,33 +9171,13 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "statement period date hierarchy": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "date hierarchy": {
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
 			        },
 			        {
-			          "date hierarchy": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "period date hierarchy": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period date hierarchy": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -10687,31 +9207,12 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "statement period year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "year": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period year": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period year": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -10771,31 +9272,12 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "statement period quarter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "quarter": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "quarter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period quarter": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period quarter": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -10855,31 +9337,12 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "statement period month": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "month": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "month": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period month": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period month": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -10939,31 +9402,12 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "statement period day": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "day": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "day": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period day": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period day": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -10990,12 +9434,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sales period": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "sale period": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -11004,13 +9442,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "period": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -11129,12 +9560,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sales period date hierarchy": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "sale period date hierarchy": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -11148,21 +9573,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "date hierarchy": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "period date hierarchy": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period date hierarchy": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -11192,12 +9603,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sales period year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "sale period year": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -11210,20 +9615,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period year": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period year": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -11283,12 +9675,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sales period quarter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "sale period quarter": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -11301,20 +9687,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "quarter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period quarter": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period quarter": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -11374,12 +9747,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sales period month": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "sale period month": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -11392,20 +9759,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "month": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period month": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period month": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -11465,12 +9819,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sales period day": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "sale period day": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -11483,20 +9831,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "day": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period day": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period day": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -11519,12 +9854,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "unit": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "unit": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -11627,12 +9956,6 @@ cultureInfo en-US
 			          "income £": {
 			            "State": "Generated"
 			          }
-			        },
-			        {
-			          "income £": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
 			        }
 			      ]
 			    },
@@ -11650,12 +9973,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "table 3 (Sheet3)": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "table 3 (Sheet3)": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        }
@@ -11680,20 +9997,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "period type": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "type": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "type": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -11819,20 +10123,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "product id": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "product": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "product": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -11958,20 +10249,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "product name": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "product": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "product": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -12097,12 +10375,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sales type": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "sale type": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -12111,13 +10383,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "type": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "type": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -12243,12 +10508,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "media": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "television": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -12365,12 +10624,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "territory": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "territory": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -12495,12 +10748,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "distributor": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "supplier": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -12621,12 +10868,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sales period": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "sale period": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -12635,13 +10876,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "period": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -12760,12 +10994,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sales period date hierarchy": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "sale period date hierarchy": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -12779,21 +11007,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "date hierarchy": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "period date hierarchy": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period date hierarchy": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -12823,12 +11037,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sales period year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "sale period year": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -12841,20 +11049,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period year": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period year": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -12914,12 +11109,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sales period quarter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "sale period quarter": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -12932,20 +11121,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "quarter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period quarter": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period quarter": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -13005,12 +11181,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sales period month": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "sale period month": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -13023,20 +11193,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "month": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period month": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period month": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -13096,12 +11253,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sales period day": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "sale period day": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -13114,20 +11265,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "day": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period day": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period day": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -13154,20 +11292,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "statement period": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -13296,33 +11421,13 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "statement period date hierarchy": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "date hierarchy": {
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
 			        },
 			        {
-			          "date hierarchy": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "period date hierarchy": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period date hierarchy": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -13352,31 +11457,12 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "statement period year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "year": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period year": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period year": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -13436,31 +11522,12 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "statement period quarter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "quarter": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "quarter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period quarter": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period quarter": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -13520,31 +11587,12 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "statement period month": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "month": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "month": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period month": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period month": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -13604,31 +11652,12 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "statement period day": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "day": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "day": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "period day": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period day": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -13655,20 +11684,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "royalty rate": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "rate": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "rate": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -13794,12 +11810,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "unit": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "module": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -13898,12 +11908,6 @@ cultureInfo en-US
 			          "income £": {
 			            "State": "Generated"
 			          }
-			        },
-			        {
-			          "income £": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
 			        }
 			      ]
 			    },
@@ -13922,12 +11926,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "royalty £": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "royalty £": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        }
@@ -13952,12 +11950,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "reserve rate": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "ReserveRate": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -13966,13 +11958,6 @@ cultureInfo en-US
 			        },
 			        {
 			          "rate": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "rate": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -14098,12 +12083,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "reserve taken": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "store taken": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -14210,12 +12189,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "reserve repaid": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "reserve repaid": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -14330,20 +12303,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "total c/fwd": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "total c": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "total c": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -14355,34 +12315,13 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "c": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "total c fwd": {
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
 			        },
 			        {
-			          "total c fwd": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "fwd": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "fwd": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -14468,12 +12407,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "amazon disributior sale cur mon QA": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "Amazon_disributior_sale_cur_mon_QA": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -14501,20 +12434,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "DTO/EST_media_sale_cur_mon_QA": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "DTO": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "DTO": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -14526,21 +12446,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "DTO EST_media_sale_cur_mon_QA": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "EST_media_sale_cur_mon_QA": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "EST_media_sale_cur_mon_QA": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -14566,12 +12472,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "samsung broadcaster sale cur mon QA": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "samsung_broadcaster_sale_cur_mon_QA": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -14585,21 +12485,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "QA": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "mon QA": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "mon QA": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -14611,34 +12497,13 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "cur mon QA": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "sale cur mon QA": {
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
 			        },
 			        {
-			          "sale cur mon QA": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "broadcaster sale cur mon QA": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "broadcaster sale cur mon QA": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -14660,12 +12525,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "telivison broadcaster sale cur mon QA": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "telivison broadcaster sale cur mon QA": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -14697,12 +12556,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "sales periodkey": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "sale periodkey": {
 			            "Type": "Noun",
 			            "State": "Generated",
@@ -14727,34 +12580,6 @@ cultureInfo en-US
 			        {
 			          "current month": {
 			            "LastModified": "2025-07-28T14:49:54.159Z"
-			          }
-			        },
-			        {
-			          "current month": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Source": {
-			              "Type": "User"
-			            }
-			          }
-			        },
-			        {
-			          "Mar-2025": {
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T15:05:03.043Z"
-			          }
-			        },
-			        {
-			          "current_month_f": {
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T14:49:57.055Z"
-			          }
-			        },
-			        {
-			          "current_month": {
-			            "Type": "Noun",
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T14:37:25.029Z"
 			          }
 			        },
 			        {
@@ -14806,6 +12631,25 @@ cultureInfo en-US
 			            },
 			            "Weight": 0.471
 			          }
+			        },
+			        {
+			          "Mar-2025": {
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T15:05:03.043Z"
+			          }
+			        },
+			        {
+			          "current_month_f": {
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T14:49:57.055Z"
+			          }
+			        },
+			        {
+			          "current_month": {
+			            "Type": "Noun",
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T14:37:25.029Z"
+			          }
 			        }
 			      ],
 			      "SemanticType": "Time"
@@ -14829,49 +12673,13 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "current month filter": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Source": {
-			              "Type": "User"
-			            }
-			          }
-			        },
-			        {
-			          "current month": {
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T14:50:44.377Z"
-			          }
-			        },
-			        {
-			          "current_month": {
-			            "Type": "Noun",
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T14:38:31.552Z"
-			          }
-			        },
-			        {
 			          "filter": {
 			            "State": "Suggested",
 			            "Weight": 0.97
 			          }
 			        },
 			        {
-			          "filter": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "month filter": {
-			            "State": "Suggested",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "month filter": {
-			            "Type": "Noun",
 			            "State": "Suggested",
 			            "Weight": 0.97
 			          }
@@ -14975,6 +12783,19 @@ cultureInfo en-US
 			            },
 			            "Weight": 0.492
 			          }
+			        },
+			        {
+			          "current month": {
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T14:50:44.377Z"
+			          }
+			        },
+			        {
+			          "current_month": {
+			            "Type": "Noun",
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T14:38:31.552Z"
+			          }
 			        }
 			      ]
 			    },
@@ -14994,13 +12815,6 @@ cultureInfo en-US
 			      "Terms": [
 			        {
 			          "date hierarchy": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "date hierarchy": {
-			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.97
 			          }
@@ -15029,19 +12843,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "year": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "date year": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "date year": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -15099,19 +12901,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "quarter": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "date quarter": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "date quarter": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -15169,19 +12959,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "month": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "date month": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "date month": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -15239,19 +13017,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "day": {
-			            "Type": "Noun",
-			            "State": "Generated"
-			          }
-			        },
-			        {
 			          "date day": {
-			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "date day": {
-			            "Type": "Noun",
 			            "State": "Generated"
 			          }
 			        },
@@ -15283,48 +13049,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "cost period": {
-			            "Type": "Noun",
-			            "State": "Generated",
-			            "Source": {
-			              "Type": "User"
-			            }
-			          }
-			        },
-			        {
-			          "cost_period_dup": {
-			            "Type": "Noun",
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T16:38:28.695Z"
-			          }
-			        },
-			        {
-			          "dup": {
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T16:38:19.637Z"
-			          }
-			        },
-			        {
-			          "period dup": {
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T16:38:17.832Z"
-			          }
-			        },
-			        {
-			          "cost period dup": {
-			            "State": "Deleted",
-			            "LastModified": "2025-07-28T16:38:13.262Z"
-			          }
-			        },
-			        {
 			          "period": {
-			            "State": "Suggested",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
-			          "period": {
-			            "Type": "Noun",
 			            "State": "Suggested",
 			            "Weight": 0.97
 			          }
@@ -15417,6 +13142,31 @@ cultureInfo en-US
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.451
+			          }
+			        },
+			        {
+			          "cost_period_dup": {
+			            "Type": "Noun",
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T16:38:28.695Z"
+			          }
+			        },
+			        {
+			          "dup": {
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T16:38:19.637Z"
+			          }
+			        },
+			        {
+			          "period dup": {
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T16:38:17.832Z"
+			          }
+			        },
+			        {
+			          "cost period dup": {
+			            "State": "Deleted",
+			            "LastModified": "2025-07-28T16:38:13.262Z"
 			          }
 			        }
 			      ]
